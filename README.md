@@ -1,7 +1,7 @@
 # GZ Agent Kit 🚀
 
 > 小艺 Claw 养成配置 + 精选 Skill 库  
-> 一套完整的 AI Agent 工作台，涵盖营养健康、中医养生、心灵陪伴、玄学命理四大板块。
+> 一套完整的 AI Agent 工作台，涵盖临床医疗、营养健康、中医养生、科研学术、心灵陪伴、玄学命理六大板块。
 
 ---
 
@@ -51,6 +51,19 @@ gz-agent-kit/
 ├── README.md                ← 本文件
 │
 ├── skills/
+│   ├── clinical/            ← 🏥 临床医疗（重症/全科）
+│   │   ├── clinical-decision-support/     ← 临床决策支持
+│   │   ├── clinical-diagnostic-reasoning/ ← 临床诊断推理
+│   │   ├── clinical-note-summarization/   ← 病历摘要自动生成
+│   │   ├── clinical-reports/              ← 临床报告生成
+│   │   ├── clinical-trials-search/        ← 临床试验搜索
+│   │   ├── drug-interaction-checker/      ← 药物相互作用检查
+│   │   ├── ehr-fhir-integration/          ← 电子病历对接
+│   │   ├── lab-results/                   ← 化验结果分析
+│   │   ├── medical-imaging-review/        ← 医学影像综述
+│   │   ├── medical-specialty-briefs/      ← 各专科简报
+│   │   └── treatment-plans/               ← 治疗方案设计
+│   │
 │   ├── nutrition/           ← 🥗 营养学 + 食疗
 │   │   ├── weekly-food-plan/     ← 食谱生成 + 购物清单
 │   │   └── health-fitness-nutrition/ ← 健康/健身/营养合集
@@ -62,6 +75,20 @@ gz-agent-kit/
 │   │
 │   ├── mind/                ← 🧠 心灵陪伴
 │   │   └── mind-companion/       ← 情绪签到 + 周报 + 自助工具箱
+│   │
+│   ├── research/            ← 🧪 科研学术
+│   │   ├── peer-review/           ← 同行评议
+│   │   ├── scientific-writing/    ← 科研写作
+│   │   ├── literature-review/     ← 文献综述
+│   │   ├── literature-search/     ← 文献检索
+│   │   └── research-grants/       ← 科研基金申请
+│   │
+│   ├── health-supplement/   ← 📊 健康补充
+│   │   ├── nutrition-analyzer/    ← 营养分析
+│   │   ├── sleep-analyzer/        ← 睡眠分析
+│   │   ├── fitness-analyzer/      ← 健身分析
+│   │   ├── mental-health-analyzer/← 心理健康分析
+│   │   └── weightloss-analyzer/   ← 体重管理
 │   │
 │   └── metaphysics/         ← 🔮 玄学命理
 │       └── numerologist-skills/  ← 奇门遁甲 + 紫微斗数 + 八字（860⭐）
@@ -76,12 +103,33 @@ gz-agent-kit/
 
 | 板块 | Skill | 来源 | 功能 |
 |:----|:------|:-----|:-----|
+| 🏥 临床 | clinical-decision-support | [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 临床决策支持 |
+| 🏥 临床 | clinical-diagnostic-reasoning | ↑ 同上 | 临床诊断推理 |
+| 🏥 临床 | clinical-note-summarization | ↑ 同上 | 病历摘要自动生成 |
+| 🏥 临床 | clinical-reports | ↑ 同上 | 临床报告生成 |
+| 🏥 临床 | clinical-trials-search | ↑ 同上 | 临床试验搜索 |
+| 🏥 临床 | drug-interaction-checker | ↑ 同上 | 药物相互作用检查 |
+| 🏥 临床 | ehr-fhir-integration | ↑ 同上 | 电子病历对接 |
+| 🏥 临床 | lab-results | ↑ 同上 | 化验结果分析 |
+| 🏥 临床 | medical-imaging-review | ↑ 同上 | 医学影像综述 |
+| 🏥 临床 | medical-specialty-briefs | ↑ 同上 | 各专科简报 |
+| 🏥 临床 | treatment-plans | ↑ 同上 | 治疗方案设计 |
 | 🥗 营养 | weekly-food-plan | [antonyevans](https://github.com/antonyevans/weekly-food-plan) | 自动生成每周食谱 + 购物清单 |
 | 🥗 营养 | health-fitness-nutrition | [ankitgoyalio/life-skills](https://github.com/ankitgoyalio/life-skills) | 健康/健身/营养合集 |
 | 🌿 养生 | vitalis-health | [d2ma-tech/vitalis-health](https://github.com/d2ma-tech/vitalis-health) | 健康长寿分析（血检/激素/肠道/运动/睡眠/营养/中医等协议） |
 | 🌿 养生 | health-mate | [tankeito/Health-Mate](https://github.com/tankeito/Health-Mate) | 本地健康报告生成（日/周/月 PDF） |
 | 🌿 养生 | graph-health-skill | [tilek/graph-health-skill](https://github.com/tilek/graph-health-skill) | 化验数据 → 趋势图仪表盘 |
 | 🧠 心灵 | mind-companion | ✨ 自制 | 情绪签到 + 周报 + 呼吸练习 + 认知重构 |
+| 🧪 科研 | peer-review | [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 同行评议 |
+| 🧪 科研 | scientific-writing | ↑ 同上 | 科研写作 |
+| 🧪 科研 | literature-review | ↑ 同上 | 文献综述 |
+| 🧪 科研 | literature-search | ↑ 同上 | 文献检索 |
+| 🧪 科研 | research-grants | ↑ 同上 | 科研基金申请 |
+| 📊 健康 | nutrition-analyzer | ↑ 同上 | 营养分析 |
+| 📊 健康 | sleep-analyzer | ↑ 同上 | 睡眠分析 |
+| 📊 健康 | fitness-analyzer | ↑ 同上 | 健身分析 |
+| 📊 健康 | mental-health-analyzer | ↑ 同上 | 心理健康分析 |
+| 📊 健康 | weightloss-analyzer | ↑ 同上 | 体重管理 |
 | 🔮 玄学 | numerologist-skills | [FANzR-arch/Numerologist_skills](https://github.com/FANzR-arch/Numerologist_skills) | 奇门遁甲 + 紫微斗数 + 八字（860⭐） |
 
 ---
