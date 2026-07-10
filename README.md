@@ -90,6 +90,16 @@ gz-agent-kit/
 │   │   ├── mental-health-analyzer/← 心理健康分析
 │   │   └── weightloss-analyzer/   ← 体重管理
 │   │
+│   ├── crawl4ai-skill/     ← 🕷️ 智能网页爬取
+│   │
+│   ├── tools/              ← 🛠️ 通用工具
+│   │   ├── agent-reach/          ← 多 Agent 通信
+│   │   ├── canvas-design/        ← AI 视觉设计
+│   │   ├── darwin-skill/         ← Skill 自动优化
+│   │   ├── doc-coauthoring/      ← 文档协同编辑
+│   │   ├── theme-factory/        ← 主题生成
+│   │   └── web-artifacts-builder/← Web 页面构建
+│   │
 │   └── metaphysics/         ← 🔮 玄学命理
 │       └── numerologist-skills/  ← 奇门遁甲 + 紫微斗数 + 八字（860⭐）
 │
@@ -130,6 +140,13 @@ gz-agent-kit/
 | 📊 健康 | fitness-analyzer | ↑ 同上 | 健身分析 |
 | 📊 健康 | mental-health-analyzer | ↑ 同上 | 心理健康分析 |
 | 📊 健康 | weightloss-analyzer | ↑ 同上 | 体重管理 |
+| 🕷️ 爬取 | crawl4ai-skill | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 智能网页爬取：CSS/LLM/批量/结构化提取 |
+| 🛠️ 工具 | agent-reach | [OpenClaw](https://github.com/alchaincyf/openclaw) | 跨 Agent 通信与消息分发 |
+| 🛠️ 工具 | canvas-design | ✨ 自制整合 | AI 视觉设计画布 |
+| 🛠️ 工具 | darwin-skill | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | Skill 自动优化（9维评分+子 Agent 实测） |
+| 🛠️ 工具 | doc-coauthoring | [OpenClaw](https://github.com/alchaincyf/openclaw) | 文档协同编辑与版本管理 |
+| 🛠️ 工具 | theme-factory | [OpenClaw](https://github.com/alchaincyf/openclaw) | 主题风格生成与定制 |
+| 🛠️ 工具 | web-artifacts-builder | [OpenClaw](https://github.com/alchaincyf/openclaw) | 交互式 Web 页面构建 |
 | 🔮 玄学 | numerologist-skills | [FANzR-arch/Numerologist_skills](https://github.com/FANzR-arch/Numerologist_skills) | 奇门遁甲 + 紫微斗数 + 八字（860⭐） |
 
 ---
@@ -157,3 +174,11 @@ MIT License
 - [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — 让 Agent 互相学习的力量
 - 所有开源 Skill 的开发者们
 - 鸽子（葛梓）—— 没有你的持续反馈，这些东西不会存在
+
+## ✨ 更新日志
+
+### v1.1.0 (2026-07-11)
+- 🧠 **mind-companion 优化** — darwin-skill 9维评分从 71 → 79 分（+8），新增异常Fallback表、🔴CHECKPOINT标记、反例BLOCK
+- 🕷️ **新增 crawl4ai-skill** — 智能网页爬取与结构化提取
+- 🛠️ **新增 tools 板块** — 6个通用工具（agent-reach/canvas-design/darwin-skill/doc-coauthoring/theme-factory/web-artifacts-builder）
+- 📄 所有 skill 附带质量评估：test-prompts.json + darwin 成果卡片
