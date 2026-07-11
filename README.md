@@ -103,13 +103,22 @@ gz-agent-kit/
 │   ├── content/            ← 📝 内容创作
 │   │   ├── guizang-social-card-skill/  ← 社交卡片（小红书/公众号封面）
 │   │   ├── ian-xiaohei-illustrations/ ← 小黑手绘正文配图
-│   │   └── humanizer-zh/              ← 文章去 AI 机味
+│   │   ├── humanizer-zh/              ← 文章去 AI 机味
+│   │   └── remove-ai-flavor-skill/    ← 去 AI 味写作（模板句改造+措辞自然化）
 │   │
 │   ├── oracles/            ← 🧠 人物视角
-│   │   └── god-skill/               ← 全世界的聪明人帮你工作
+│   │   ├── god-skill/               ← 全世界的聪明人帮你工作
+│   │   └── zeng-guofan-perspective/ ← 曾国藩 · 知行操作系统
+│   │
+│   ├── video/              ← 🎬 视频创作
+│   │   ├── chengfeng-videocut-skill/     ← 口播剪辑：转录→去口误→校字幕→合成竖屏
+│   │   ├── bibigpt-skill/               ← 30+平台视频结构化拆解
+│   │   ├── good-broll/                  ← B-roll 画面方案+AI提示词生成
+│   │   ├── narrator-ai-cli-skill/       ← 电影解说八步全自动
+│   │   ├── remotion-video-skill/        ← React 代码写视频（动画/字幕/3D/图表）
+│   │   └── OpenMontage-video-factory/   ← 开源 Agent 视频工厂
 │   │
 │   └── metaphysics/         ← 🔮 玄学命理
-│       └── numerologist-skills/  ← 奇门遁甲 + 紫微斗数 + 八字（860⭐）
 │
 └── docs/
     └── workflow.md          ← 协作方法论
@@ -152,6 +161,7 @@ gz-agent-kit/
 | 📝 内容 | guizang-social-card-skill | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | 一键把内容做成社交卡片组图与封面（小红书/公众号） |
 | 📝 内容 | ian-xiaohei-illustrations | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 生成小黑风格白底手绘正文配图（7.5k ⭐） |
 | 📝 内容 | humanizer-zh | [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) | AI 文本去机味，16种AI模式清单识别与改写 |
+| 📝 内容 | remove-ai-flavor-skill | [B1lli/remove-ai-flavor-skill](https://github.com/B1lli/remove-ai-flavor-skill) | 去 AI 味写作：模板句改造、措辞自然化、中文 AI 味清理 |
 | 🧠 人物视角 | god-skill | [fattly/god-skill](https://github.com/fattly/god-skill) | 输入人名→蒸馏认知操作系统→生成可运行的人物SKILL.md |
 | 🛠️ 工具 | agent-reach | [OpenClaw](https://github.com/alchaincyf/openclaw) | 跨 Agent 通信与消息分发 |
 | 🛠️ 工具 | canvas-design | ✨ 自制整合 | AI 视觉设计画布 |
@@ -205,3 +215,14 @@ MIT License
 - 🧠 **新增 oracles 板块** — 全世界的名人来帮你工作
 - 🕊️ **god-skill** — 输入人名→7层蒸馏（心智模型/决策启发式/表达DNA/价值观/谱系/盲区/灵魂层）→生成可运行人物Skill
 - 📐 八大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·玄学
+
+### v1.4.0 (2026-07-11)
+- 🎬 **新增 video 板块** — 视频创作全链路
+- 🎤 **chengfeng-videocut-skill** — 口播剪辑：转录→去口误→校字幕→分镜→合成
+- 📊 **bibigpt-skill** — 30+平台视频结构化拆解（钩子/转折/结尾）
+- 🖼️ **good-broll** — B-roll 画面方案+AI提示词，5种视觉风格
+- 🎥 **narrator-ai-cli-skill** — 电影解说全自动（8步：找片源→拉片→文案→配音→BGM→合成）
+- 💻 **remotion-video-skill** — React 代码写视频，30+规则文档覆盖动画/字幕/3D/图表
+- 🏭 **OpenMontage-video-factory** — 开源Agent视频工厂
+- ✍️ **remove-ai-flavor-skill** — 去AI味写作，与humanizer-zh互补(content板块)
+- 📐 十大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·视频·玄学·工具
