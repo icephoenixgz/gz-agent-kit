@@ -1,7 +1,7 @@
 # GZ Agent Kit 🚀
 
 > 小艺 Claw 养成配置 + 精选 Skill 库  
-> 一套完整的 AI Agent 工作台，涵盖临床医疗、营养健康、中医养生、科研学术、心灵陪伴、玄学命理六大板块。
+> 一套完整的 AI Agent 工作台，涵盖临床医疗、营养健康、中医养生、科研学术、心灵陪伴、内容创作、人物视角、玄学命理八大板块。
 
 ---
 
@@ -105,6 +105,9 @@ gz-agent-kit/
 │   │   ├── ian-xiaohei-illustrations/ ← 小黑手绘正文配图
 │   │   └── humanizer-zh/              ← 文章去 AI 机味
 │   │
+│   ├── oracles/            ← 🧠 人物视角
+│   │   └── god-skill/               ← 全世界的聪明人帮你工作
+│   │
 │   └── metaphysics/         ← 🔮 玄学命理
 │       └── numerologist-skills/  ← 奇门遁甲 + 紫微斗数 + 八字（860⭐）
 │
@@ -149,6 +152,7 @@ gz-agent-kit/
 | 📝 内容 | guizang-social-card-skill | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | 一键把内容做成社交卡片组图与封面（小红书/公众号） |
 | 📝 内容 | ian-xiaohei-illustrations | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 生成小黑风格白底手绘正文配图（7.5k ⭐） |
 | 📝 内容 | humanizer-zh | [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) | AI 文本去机味，16种AI模式清单识别与改写 |
+| 🧠 人物视角 | god-skill | [fattly/god-skill](https://github.com/fattly/god-skill) | 输入人名→蒸馏认知操作系统→生成可运行的人物SKILL.md |
 | 🛠️ 工具 | agent-reach | [OpenClaw](https://github.com/alchaincyf/openclaw) | 跨 Agent 通信与消息分发 |
 | 🛠️ 工具 | canvas-design | ✨ 自制整合 | AI 视觉设计画布 |
 | 🛠️ 工具 | darwin-skill | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | Skill 自动优化（9维评分+子 Agent 实测） |
@@ -196,3 +200,8 @@ MIT License
 - 🎨 **新增 ian-xiaohei-illustrations** — 小黑手绘风格配图（7.5k ⭐）
 - 🤖 **新增 humanizer-zh** — 文章发布前去 AI 机味
 - 📝 **新增 content 板块** — 补齐内容创作链路：研究→写作→包装→发布
+
+### v1.3.0 (2026-07-11)
+- 🧠 **新增 oracles 板块** — 全世界的名人来帮你工作
+- 🕊️ **god-skill** — 输入人名→7层蒸馏（心智模型/决策启发式/表达DNA/价值观/谱系/盲区/灵魂层）→生成可运行人物Skill
+- 📐 八大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·玄学
