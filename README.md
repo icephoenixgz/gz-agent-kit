@@ -100,6 +100,9 @@ gz-agent-kit/
 │   │   ├── theme-factory/        ← 主题生成
 │   │   └── web-artifacts-builder/← Web 页面构建
 │   │
+│   ├── operations/         ← 🏢 商业运营
+│   │   └── dbskill/               ← 一人公司商业诊断工具箱（24个子skill）
+│   │
 │   ├── content/            ← 📝 内容创作
 │   │   ├── guizang-social-card-skill/  ← 社交卡片（小红书/公众号封面）
 │   │   ├── ian-xiaohei-illustrations/ ← 小黑手绘正文配图
@@ -158,6 +161,7 @@ gz-agent-kit/
 | 📊 健康 | mental-health-analyzer | ↑ 同上 | 心理健康分析 |
 | 📊 健康 | weightloss-analyzer | ↑ 同上 | 体重管理 |
 | 🕷️ 爬取 | crawl4ai-skill | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 智能网页爬取：CSS/LLM/批量/结构化提取 |
+| 🏢 运营 | dbskill | [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) | 一人公司商业诊断工具箱（24个子skill：诊断/决策/对标/内容/钩子等） |
 | 📝 内容 | guizang-social-card-skill | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | 一键把内容做成社交卡片组图与封面（小红书/公众号） |
 | 📝 内容 | ian-xiaohei-illustrations | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 生成小黑风格白底手绘正文配图（7.5k ⭐） |
 | 📝 内容 | humanizer-zh | [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) | AI 文本去机味，16种AI模式清单识别与改写 |
@@ -215,6 +219,12 @@ MIT License
 - 🧠 **新增 oracles 板块** — 全世界的名人来帮你工作
 - 🕊️ **god-skill** — 输入人名→7层蒸馏（心智模型/决策启发式/表达DNA/价值观/谱系/盲区/灵魂层）→生成可运行人物Skill
 - 📐 八大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·玄学
+
+### v1.5.0 (2026-07-11)
+- 🏢 **新增 operations 板块** — 商业运营
+- 🔧 **dbskill** — dontbesilent 商业诊断工具箱（v2.17.0，24个子skill：诊断/决策/对标/内容/钩子）
+- 🎥 **money-printer-turbo** — 参考项目收录（96k⭐，脚本→短视频自动成片）
+- 📐 十一大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·视频·运营·玄学·工具
 
 ### v1.4.0 (2026-07-11)
 - 🎬 **新增 video 板块** — 视频创作全链路
