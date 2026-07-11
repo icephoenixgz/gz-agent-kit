@@ -179,6 +179,8 @@ gz-agent-kit/
 | **patent-disclosure-skill** 🏆3.7k⭐ | 专利挖掘→查新→交底书→自检全流程 | 研究/专利 |
 | **money-printer-turbo** 🏆96k⭐ | 脚本→短视频自动成片（Python应用） | 视频参考 |
 | **mattpocock-teach** | Matt Pocock教学理念源文件存档 | 学习参考 |
+| **agent-reach** 🏆54.7k⭐ | 给你的AI Agent一键联网能力（30+平台） | 工具升级 |
+| **headroom** | 上下文压缩层 — 60-95%更少token相同答案 | 上下文优化 |
 
 ---
 
