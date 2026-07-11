@@ -100,6 +100,12 @@ gz-agent-kit/
 │   │   ├── theme-factory/        ← 主题生成
 │   │   └── web-artifacts-builder/← Web 页面构建
 │   │
+│   ├── learning-system/    ← 🎓 小艺双向学习引擎
+│   │   ├── topics/             ← 按主题独立学习空间
+│   │   ├── tools/              ← 学习工具组件
+│   │   ├── templates/          ← Lesson 模板
+│   │   └── assets/            ← 可复用CSS/Quiz组件
+│   │
 │   ├── operations/         ← 🏢 商业运营
 │   │   └── dbskill/               ← 一人公司商业诊断工具箱（24个子skill）
 │   │
@@ -172,6 +178,8 @@ gz-agent-kit/
 | 🛠️ 工具 | darwin-skill | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | Skill 自动优化（9维评分+子 Agent 实测） |
 | 🛠️ 工具 | doc-coauthoring | [OpenClaw](https://github.com/alchaincyf/openclaw) | 文档协同编辑与版本管理 |
 | 🛠️ 工具 | theme-factory | [OpenClaw](https://github.com/alchaincyf/openclaw) | 主题风格生成与定制 |
+| 🎓 学习 | learning-system | ✨ 自制整合 | 小艺双向学习引擎：基于Teach理念的Knowledge→Skills→Wisdom三层框架 |
+| 📋 参考 | patent-disclosure-skill | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 专利挖掘&交底书生成全流程（参考收录） |
 | 🛠️ 工具 | web-artifacts-builder | [OpenClaw](https://github.com/alchaincyf/openclaw) | 交互式 Web 页面构建 |
 | 🔮 玄学 | numerologist-skills | [FANzR-arch/Numerologist_skills](https://github.com/FANzR-arch/Numerologist_skills) | 奇门遁甲 + 紫微斗数 + 八字（860⭐） |
 
@@ -219,6 +227,15 @@ MIT License
 - 🧠 **新增 oracles 板块** — 全世界的名人来帮你工作
 - 🕊️ **god-skill** — 输入人名→7层蒸馏（心智模型/决策启发式/表达DNA/价值观/谱系/盲区/灵魂层）→生成可运行人物Skill
 - 📐 八大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·玄学
+
+### v1.6.0 (2026-07-11)
+- 🎓 **新增 learning-system** — 小艺双向学习引擎
+- 📚 基于Matt Pocock Teach理念的Knowledge→Skills→Wisdom三层框架
+- 🔄 双向学习模式（教用户/小艺自学/交叉学习/输出驱动）
+- 📤 学习输出对接：文章/教程/决策建议/创作内容
+- 🧠 ZPD自适应教学 + spacing/interleaving/retrieval practice
+- 📋 **patent-disclosure-skill** — 专利挖掘&交底书生成参考收录（⭐3.7k）
+- 📐 十二大板块成型：临床·营养·养生·科研·心灵·内容·人物视角·视频·运营·玄学·工具·学习
 
 ### v1.5.0 (2026-07-11)
 - 🏢 **新增 operations 板块** — 商业运营
