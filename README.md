@@ -181,6 +181,7 @@ gz-agent-kit/
 | **mattpocock-teach** | Matt Pocock教学理念源文件存档 | 学习参考 |
 | **agent-reach** 🏆54.7k⭐ | 给你的AI Agent一键联网能力（30+平台） | 工具升级 |
 | **headroom** | 上下文压缩层 — 60-95%更少token相同答案 | 上下文优化 |
+| **openhuman** 🔥 Trending #1 | 个人AI超级智能 — Memory Tree + Subconscious + TokenJuice | 架构参考 |
 
 ---
 
