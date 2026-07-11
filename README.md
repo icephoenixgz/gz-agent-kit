@@ -100,6 +100,11 @@ gz-agent-kit/
 │   │   ├── theme-factory/        ← 主题生成
 │   │   └── web-artifacts-builder/← Web 页面构建
 │   │
+│   ├── content/            ← 📝 内容创作
+│   │   ├── guizang-social-card-skill/  ← 社交卡片（小红书/公众号封面）
+│   │   ├── ian-xiaohei-illustrations/ ← 小黑手绘正文配图
+│   │   └── humanizer-zh/              ← 文章去 AI 机味
+│   │
 │   └── metaphysics/         ← 🔮 玄学命理
 │       └── numerologist-skills/  ← 奇门遁甲 + 紫微斗数 + 八字（860⭐）
 │
@@ -141,6 +146,9 @@ gz-agent-kit/
 | 📊 健康 | mental-health-analyzer | ↑ 同上 | 心理健康分析 |
 | 📊 健康 | weightloss-analyzer | ↑ 同上 | 体重管理 |
 | 🕷️ 爬取 | crawl4ai-skill | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 智能网页爬取：CSS/LLM/批量/结构化提取 |
+| 📝 内容 | guizang-social-card-skill | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | 一键把内容做成社交卡片组图与封面（小红书/公众号） |
+| 📝 内容 | ian-xiaohei-illustrations | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 生成小黑风格白底手绘正文配图（7.5k ⭐） |
+| 📝 内容 | humanizer-zh | [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) | AI 文本去机味，16种AI模式清单识别与改写 |
 | 🛠️ 工具 | agent-reach | [OpenClaw](https://github.com/alchaincyf/openclaw) | 跨 Agent 通信与消息分发 |
 | 🛠️ 工具 | canvas-design | ✨ 自制整合 | AI 视觉设计画布 |
 | 🛠️ 工具 | darwin-skill | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | Skill 自动优化（9维评分+子 Agent 实测） |
@@ -182,3 +190,9 @@ MIT License
 - 🕷️ **新增 crawl4ai-skill** — 智能网页爬取与结构化提取
 - 🛠️ **新增 tools 板块** — 6个通用工具（agent-reach/canvas-design/darwin-skill/doc-coauthoring/theme-factory/web-artifacts-builder）
 - 📄 所有 skill 附带质量评估：test-prompts.json + darwin 成果卡片
+
+### v1.2.0 (2026-07-11)
+- 🖼️ **新增 guizang-social-card-skill** — 内容→社交卡片（小红书/公众号封面）
+- 🎨 **新增 ian-xiaohei-illustrations** — 小黑手绘风格配图（7.5k ⭐）
+- 🤖 **新增 humanizer-zh** — 文章发布前去 AI 机味
+- 📝 **新增 content 板块** — 补齐内容创作链路：研究→写作→包装→发布
