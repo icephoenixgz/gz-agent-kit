@@ -1,7 +1,7 @@
 ---
 name: learning-system
-description: "小艺双向学习引擎：融合Matt Pocock Teach理念的Knowledge→Skills→Wisdom三层框架，用文件系统作为学习状态机驱动ZPD自适应教学，为小艺和用户双向驱动个性化学习，对接十大板块知识输入，以对外输出为目标。"
-version: "1. Prithee"
+description: "小艺双向学习引擎：融合Matt Pocock Teach理念 + Open Notebook认知伙伴理念 + Zettelkasten卡片笔记法，用文件系统作为学习状态机驱动ZPD自适应教学，为小艺和用户双向驱动个性化学习，对接十大板块知识输入，以对外输出为目标。"
+version: "1.2.0"
 user-invocable: true
 argument-hint: "[学习主题 | 查看进度 | 开始学习 | 复习 | 总结 | 对外输出]"
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch
@@ -10,7 +10,8 @@ disable-model-invocation: false
 
 # 小艺学习系统（Xiaoyi Learning System）
 
-> 融合 **[Matt Pocock /teach](https://github.com/mattpocock/skills)** 完整教学理念。
+> 融合 **[Matt Pocock /teach](https://github.com/mattpocock/skills)** 完整教学理念
+> 与 **[Open Notebook](https://www.open-notebook.ai)** 认知伙伴 + Zettelkasten 研究方法论。
 > 模板格式详见 `templates/` 目录：`MISSION-FORMAT.md`、`LEARNING-RECORD-FORMAT.md`、`RESOURCES-FORMAT.md`。
 
 ## 核心理念
@@ -29,6 +30,32 @@ Knowledge → Skills → Wisdom
 - 覆盖材料不是学习。等待理解的证据再写 learning-record
 - 每个 Lesson 直接锚定回 MISSION.md — 不教无关内容
 - 只教必要知识（减少认知负荷），然后立即互动练习
+
+### AI 是认知伙伴，不是替代品
+
+> 源自 Open Notebook 理念。
+
+AI 不是帮你跳过学习的捷径，而是：
+- **挑战你的思考** — 提出反问、指出盲区、提供不同视角
+- **处理你来不及看的** — 筛出最重要的信息，而非替你消化
+- **追问你的假设** — 你给出的结论，AI 应该追问「为什么你这么想？」
+
+### 学习需要行动（Elaboration）
+
+> 源自 Open Notebook 理念。
+
+- 学到的知识必须变成自己的**笔记/卡片/作品**，才算真正掌握
+- 加工（改写、结构化、联想）比收藏有价值十倍
+- 收藏 100 篇不如写 1 篇自己的笔记
+
+### CONTEXT is King
+
+> 源自 Open Notebook 理念。
+
+- 你的学习背景、目标、动机越丰富，教学越精准
+- MISSION.md 不仅仅是动机锚点，更是 AI 理解你的窗口
+- 学习记录越完整，ZPD 判断越准确
+- 上下文越私有（你独有的人生/工作/目标背景），输出越不可替代
 
 ## 学习工作区结构
 
@@ -157,7 +184,52 @@ topics/<topic-name>/
 - **间隔重复**：分布练习时间
 - **交错练习**：混合相关但不同的主题（技能练习专用）
 
+## 与学习素材对接（Seamless Integration）
+
+> 源自 Open Notebook 理念。
+
+学习系统的输入不限于 skill — 任何形式的内容都可以：
+
+| 内容形式 | 接入方式 |
+|---------|---------|
+| 🔗 **网页链接** | 丢进来，AI 自动抓取、摘要、生成 GLOSSARY 条目 |
+| 📄 **PDF/论文** | 丢进来，提取核心论点 + 术语表 |
+| 🎬 **YouTube/视频** | 丢进来，提取关键帧 + 字幕 -> learning-record |
+| 🎙️ **播客** | 丢进来，逐段分析 -> 复习卡片 |
+| 📝 **你的笔记** | 丢进来，分类存档 -> 互联 -> 知识图谱 |
+
+### 小艺知识卡片（Zettelkasten 适配）
+
+> 源自 Zettelkasten 卡片笔记法。
+
+每个 learning-record 本质上是一张**原子笔记卡**：
+- **单概念**：一条 record 只记录一个核心洞见
+- **互联**：每条 record 必须链接到之前的相关 record
+- **知识图谱**：记录间的连接网络 = 你对这个领域的理解结构
+
+当记录超过 20 条时，AI 应主动生成主题间的关系图谱，可视化知识结构。
+
 ## 与十大板块对接
+
+### 卡片仓库结构
+
+每个学习主题的 `learning-records/` 同时也是卡片盒，支持跨主题链接：
+
+```
+topics/
+├── clinical/
+│   └── learning-records/
+│       ├── 0001-rass-score.md
+│       └── 0002-sedation-protocol.md
+├── metaphor/ (示例)
+│   └── learning-records/
+│       ├── 0001-what-is-metaphor.md
+│       └── 0002-ontology-vs-conceptual.md
+└── ...
+
+# 跨主题链接示例：一条 record 可以引用其他主题的 record
+# [See also: clinical/0002-sedation-protocol → 镇静镇痛与心理干预的交叉点]
+```
 
 学习系统的**输入**来自已安装的十大板块：
 
@@ -245,7 +317,9 @@ topics/<topic-name>/
 
 ## 对外输出模式
 
-学习的**终极目标**是输出：
+学习的**终极目标**是输出。输出同时也是**最好的学习方式**（Elaboration）：
+
+> 把学到的用自己的话讲给别人听 -> 你才算真的懂了。
 
 | 输出类型 | 从学习到输出的路径 |
 |---------|-------------------|

@@ -46,3 +46,20 @@ Learning records 放在 `./learning-records/` 中，使用顺序编号：`0001-s
 ## 替代
 
 当后来的记录与之前的记录矛盾时（用户的理解加深或更正了），标记旧记录 `Status: superseded by LR-NNNN` 而不是删除它。理解如何演变的历史本身就是有用的信号
+
+## 卡片链接（Zettelkasten 规则）
+
+> 源自 Zettelkasten 卡片笔记法 + Open Notebook 理念。
+
+Learning Record 同时也是 Zettelkasten 原子笔记卡。遵守以下规则：
+
+1. **单概念原则**：每条 record 只记录一个核心洞见或知识点
+2. **必须互联**：每条 record 至少链到 1 条相关 record（同级或不同主题）
+3. **跨主题链接**：允许跨 `topics/` 目录链接，格式：
+   ```md
+   ## Connections
+   - [clinical/0002-sedation-protocol.md] — 镇静镇痛与焦虑管理的交叉
+   - [nutrition/0001-rni-ul.md] — 营养补充与生理基础
+   ```
+4. **知识图谱积累**：当某个主题的 records 超过 20 条时，AI 应主动生成该主题的知识结构概览，可视化为 mermaid 关系图
+5. **卡片不孤立**：如果一条 record 没有任何链接，说明它可能不属于任何已有知识结构 — 考虑归入新主题或确认是否需要保留
