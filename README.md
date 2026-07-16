@@ -1,9 +1,9 @@
 <div align="center">
   <h1>🛸 GZ Agent Kit</h1>
-  <p><strong>你的 AI 工作台 · 47 个精选 Skill · 12 大板块</strong></p>
+  <p><strong>你的 AI 工作台 · 52 个精选 Skill · 12 大板块</strong></p>
   <p><em>小艺 Claw 养成配置 + 精选 Skill 库 — 一套陪你成长的 Agent 工作台</em></p>
   <p>
-    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-47-blue" alt="Skills"></a>
+    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-52-blue" alt="Skills"></a>
     <a href="#-板块"><img src="https://img.shields.io/badge/Categories-12-brightgreen" alt="Categories"></a>
     <a href="https://github.com/icephoenixgz/gz-agent-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-ff69b4" alt="Maintained"></a>
@@ -65,12 +65,12 @@ gz-agent-kit/
 ├── MEMORY.md          ← 记忆维护策略
 ├── README.md          ← ← 你正在看这个
 │
-├── skills/            ← 🧩 Skill 仓库（47 个）
+├── skills/            ← 🧩 Skill 仓库（52 个）
 │   ├── clinical/      ← 🏥 临床医疗 ICU/全科（11 个）
 │   ├── nutrition/     ← 🥗 营养学 + 食疗（2 个）
 │   ├── wellness/      ← 🌿 中医 + 养生（3 个）
 │   ├── mind/          ← 🧠 心灵陪伴（1 个）
-│   ├── research/      ← 🧪 科研学术（5 个）
+│   ├── research/      ← 🧪 科研学术（7 个）
 │   ├── health-supplement/ ← 📊 健康分析补充（5 个）
 │   ├── content/       ← 📝 内容创作（4 个）
 │   ├── oracles/       ← 🧠 人物视角（2 个）
@@ -78,7 +78,7 @@ gz-agent-kit/
 │   ├── operations/    ← 🏢 商业运营（1 个）
 │   ├── learning-system/ ← 🎓 学习引擎
 │   ├── metaphysics/   ← 🔮 玄学命理
-│   ├── tools/         ← 🛠️ 通用工具（6 个）
+│   ├── tools/         ← 🛠️ 通用工具（10 个）
 │   └── crawl4ai-skill/← 🕷️ 爬取
 │
 └── reference/         ← 📋 参考项目
@@ -127,6 +127,8 @@ gz-agent-kit/
 | **literature-review** | 文献综述 | ↑ |
 | **literature-search** | 文献检索 | ↑ |
 | **research-grants** | 科研基金申请 | ↑ |
+| **paper-lookup** ✨增强 | 12库学术检索（含中文知网/万方/维普 + Zenodo） | [alfonso0512](https://github.com/alfonso0512/academic-search-skill) 吸收整合 |
+| **hv-analysis** | 竞品深度分析，万字报告（纵向历史+横向对比） | [KKKKhazix](https://github.com/KKKKhazix/khazix-skills) |
 | **nutrition-analyzer** | 营养分析 | ↑ |
 | **sleep-analyzer** | 睡眠分析 | ↑ |
 | **fitness-analyzer** | 健身分析 | ↑ |
@@ -171,6 +173,9 @@ gz-agent-kit/
 | **darwin-skill** | Skill自动优化（9维评分+实测） | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) |
 | **theme-factory** | 主题风格生成 | [OpenClaw](https://github.com/alchaincyf/openclaw) |
 | **web-artifacts-builder** | Web页面构建 | [OpenClaw](https://github.com/alchaincyf/openclaw) |
+| **aihot** 🆕 | 一句话查AI圈最新动态（免费，无需Key） | [KKKKhazix](https://github.com/KKKKhazix/khazix-skills) |
+| **pua-skill** 🆕 | 专治Agent摆烂 — 高压推进，强制换思路 | [tanweai/pua](https://github.com/tanweai/pua) |
+| **ashan-skill-creator** 🆕 | 用嘴描述需求自动生成Skill | [ashans](https://github.com/ashans/ashan-skill-creator) |
 
 ### 📋 参考项目
 
@@ -224,6 +229,14 @@ gz-agent-kit/
 ---
 
 ## ✨ 更新日志
+
+### v1.7.0 — 🧰 工具库扩充 + 中文论文搜索 + 5个新增Skill
+- 📡 **aihot** 🆕 — 一句话查AI圈最新动态，免费无需Key
+- 🚀 **pua-skill** 🆕 — 专治Agent摆烂，强制换思路继续干
+- 🏗️ **ashan-skill-creator** 🆕 — 用嘴描述需求自动生成Skill
+- 🔬 **hv-analysis** 🆕 — 竞品深度分析，万字报告
+- 📚 **paper-lookup** ✨增强 — 从10库→12库，新增中文学术站点（知网/万方/维普/百度学术）+ Zenodo研究数据集
+- 📈 仓库收录：47 → **52个Skill**
 
 ### v1.6.1 — 🧠 学习引擎升级 + 认知伙伴 + Zettelkasten
 - 🤝 **AI 认知伙伴**：挑战思考、追问假设、帮筛选而非代替消化
