@@ -1,9 +1,9 @@
 <div align="center">
   <h1>🛸 GZ Agent Kit</h1>
-  <p><strong>你的 AI 工作台 · 52 个精选 Skill · 12 大板块</strong></p>
+  <p><strong>你的 AI 工作台 · 53 个精选 Skill · 12 大板块</strong></p>
   <p><em>小艺 Claw 养成配置 + 精选 Skill 库 — 一套陪你成长的 Agent 工作台</em></p>
   <p>
-    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-52-blue" alt="Skills"></a>
+    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-53-blue" alt="Skills"></a>
     <a href="#-板块"><img src="https://img.shields.io/badge/Categories-12-brightgreen" alt="Categories"></a>
     <a href="https://github.com/icephoenixgz/gz-agent-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-ff69b4" alt="Maintained"></a>
@@ -65,7 +65,7 @@ gz-agent-kit/
 ├── MEMORY.md          ← 记忆维护策略
 ├── README.md          ← ← 你正在看这个
 │
-├── skills/            ← 🧩 Skill 仓库（52 个）
+├── skills/            ← 🧩 Skill 仓库（53 个）
 │   ├── clinical/      ← 🏥 临床医疗 ICU/全科（11 个）
 │   ├── nutrition/     ← 🥗 营养学 + 食疗（2 个）
 │   ├── wellness/      ← 🌿 中医 + 养生（3 个）
@@ -78,7 +78,7 @@ gz-agent-kit/
 │   ├── operations/    ← 🏢 商业运营（1 个）
 │   ├── learning-system/ ← 🎓 学习引擎
 │   ├── metaphysics/   ← 🔮 玄学命理
-│   ├── tools/         ← 🛠️ 通用工具（10 个）
+│   ├── tools/         ← 🛠️ 通用工具（11 个）
 │   └── crawl4ai-skill/← 🕷️ 爬取
 │
 └── reference/         ← 📋 参考项目
@@ -176,6 +176,7 @@ gz-agent-kit/
 | **aihot** 🆕 | 一句话查AI圈最新动态（免费，无需Key） | [KKKKhazix](https://github.com/KKKKhazix/khazix-skills) |
 | **pua-skill** 🆕 | 专治Agent摆烂 — 高压推进，强制换思路 | [tanweai/pua](https://github.com/tanweai/pua) |
 | **ashan-skill-creator** 🆕 | 用嘴描述需求自动生成Skill | [ashans](https://github.com/ashans/ashan-skill-creator) |
+| **naiyue-thinking** 🆕 ✨自制 | 12条思考纪律：先标证据、再给结论、最小可用路径 | 吸收 naiyue-skills 思路自制 |
 
 ### 📋 参考项目
 
@@ -229,6 +230,11 @@ gz-agent-kit/
 ---
 
 ## ✨ 更新日志
+
+### v1.8.0 — 🧠 思考收束器 + 奈月思路吸收
+- 🧠 **naiyue-thinking** 🆕 ✨自制 — 12条思考纪律，让AI做判断题不做论述题
+- 📐 吸收 naiyue-skills 四核精髓：确定性骨架 / 证据三色标签 / 来源产物分离 / 三次出现再机制化
+- 📈 仓库收录：52 → **53个Skill**
 
 ### v1.7.0 — 🧰 工具库扩充 + 中文论文搜索 + 5个新增Skill
 - 📡 **aihot** 🆕 — 一句话查AI圈最新动态，免费无需Key
