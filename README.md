@@ -1,9 +1,9 @@
 <div align="center">
   <h1>🛸 GZ Agent Kit</h1>
-  <p><strong>你的 AI 工作台 · 56 个精选 Skill · 12 大板块</strong></p>
+  <p><strong>你的 AI 工作台 · 57 个精选 Skill · 12 大板块</strong></p>
   <p><em>小艺 Claw 养成配置 + 精选 Skill 库 — 一套陪你成长的 Agent 工作台</em></p>
   <p>
-    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-56-blue" alt="Skills"></a>
+    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-57-blue" alt="Skills"></a>
     <a href="#-板块"><img src="https://img.shields.io/badge/Categories-12-brightgreen" alt="Categories"></a>
     <a href="https://github.com/icephoenixgz/gz-agent-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-ff69b4" alt="Maintained"></a>
@@ -78,7 +78,7 @@ gz-agent-kit/
 │   ├── operations/    ← 🏢 商业运营（1 个）
 │   ├── learning-system/ ← 🎓 学习引擎
 │   ├── metaphysics/   ← 🔮 玄学命理
-│   ├── tools/         ← 🛠️ 通用工具（12 个）
+│   ├── tools/         ← 🛠️ 通用工具（13 个）
 │   └── crawl4ai-skill/← 🕷️ 爬取
 │
 └── reference/         ← 📋 参考项目
@@ -179,6 +179,7 @@ gz-agent-kit/
 | **pua-skill** 🆕 | 专治Agent摆烂 — 高压推进，强制换思路 | [tanweai/pua](https://github.com/tanweai/pua) |
 | **ashan-skill-creator** 🆕 | 用嘴描述需求自动生成Skill | [ashans](https://github.com/ashans/ashan-skill-creator) |
 | **naiyue-thinking** 🆕 ✨自制 | 12条思考纪律：先标证据、再给结论、最小可用路径 | 吸收 naiyue-skills 思路自制 |
+| **video-downloader** 🆕 | 多平台视频下载+文案提取+ASR转写（抖音/B站/YouTube/小红书） | [kangarooking/kangarooking-skills](https://github.com/kangarooking/kangarooking-skills) |
 
 ### 📋 参考项目
 
@@ -238,15 +239,15 @@ gz-agent-kit/
 ### v1.8.1 — 🧑‍🏫 
 
 
-### v1.8.3 — 📊 大示AI PPT安装 + 仓库56个Skill
+### v1.8.3 — 📊 大示AI PPT安装 + 仓库57个Skill
 - 🎨 **dashi-ppt** 🆕 — 大示AI PPT Skill（12套主题/1020版式/7图表/5分析模型/自带编辑控制台/导出PPTX/HTML/PDF）
-- 📈 仓库收录：53 → **56个Skill**
+- 📈 仓库收录：53 → **55个Skill**
 
 ### v1.8.2 — 🎯 AI 学习闭环 + 7步法增强\n- 🧠 **learning-system** ✨增强 — 新增 AI 学习闭环（目标→材料→讲解→输出→反馈→复习→项目）\n- 吸收 byoungd/up「人生进阶指南」AI学习回路，丰富 SCI 英语写作训练路径苏格拉底追问 + 学习引擎增强\n- 🧠 **learning-system** ✨增强 — 新增苏格拉底追问理念（5种追问场景 + 3种不适情况 + 追问节奏控制）\n- 吸收 DeepTutor 引导式教学思路，与现有 Teach 框架互补/
 - 🧠 **naiyue-thinking** 🆕 ✨自制 — 12条思考纪律，让AI做判断题不做论述题
 - 📐 `diagram-maker` ✨增强 — 吸收 GitHub Excalidraw 9种图类型指导（流程图/思维导图/关系图/架构图/DFD/泳道图/类图/序列图/ER图）+ 复杂度管理 + 验证checklist
 - 📐 吸收 naiyue-skills 四核精髓：确定性骨架 / 证据三色标签 / 来源产物分离 / 三次出现再机制化
-- 📈 仓库收录：52 → **56个Skill**
+- 📈 仓库收录：52 → **57个Skill**
 
 ### v1.7.0 — 🧰 工具库扩充 + 中文论文搜索 + 5个新增Skill
 - 📡 **aihot** 🆕 — 一句话查AI圈最新动态，免费无需Key
