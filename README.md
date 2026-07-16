@@ -122,7 +122,8 @@ gz-agent-kit/
 | Skill | 说明 | ⭐ 来源 |
 |:------|:-----|:-------|
 | **mind-companion** ✨自制 | 情绪签到 + 周报 + 呼吸练习 | 9维darwin评分79 |
-| **peer-review** | 同行评议 | [FreedomIntelligence](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) |
+| **academic-writing** ✨增强 | 学术论文撰写（9步工作流 + 术语台账 + 🆕学术诚信闸门） | [Imbad0202](https://github.com/Imbad0202/academic-research-skills) 吸收理念 |
+| **peer-review** ✨增强 | 同行评议 + 🆕多视角评审委员会（主编/3审稿人/魔鬼代言人） | ↑ |
 | **scientific-writing** | 科研写作 | ↑ |
 | **literature-review** | 文献综述 | ↑ |
 | **literature-search** | 文献检索 | ↑ |
@@ -260,6 +261,11 @@ gz-agent-kit/
 ### v1.8.7 — 🔍 viral-topic 跨平台选题发现吸收 + content-research-writer 增强
 - **content-research-writer-cn** ✨增强 — 新增「跨平台爆款选题发现」section（公众号/B站/YouTube/X四平台判断标准 + 5步工作流 + 硬性规则）
 - 🎯 写作全链路：选题→大纲→调研→写作→标题
+
+### v1.8.9 — 🎓 学术诚信闸门 + 魔鬼代言人评审吸收
+- **academic-writing** v1.1.0 ✨增强 — 新增「学术诚信闸门」（写作前Stage 2.5引用验证 + 修订后Stage 4.5回检 + 论断-引用匹配检查红黄绿三级标签）
+- **peer-review** ✨增强 — 新增「多视角同行评审委员会」（主编+3位动态审稿人+🆕魔鬼代言人 + 0-100评分机制 + 两轮评审流程）
+- 吸收 Imbad0202/academic-research-skills (32K⭐) 核心理念
 
 ### v1.8.8 — 📱 wechat-format 公众号一键排版 + 仓库58个Skill
 - **wechat-format** 🆕 ✨自制 — 公众号一键排版：Markdown→微信兼容HTML / 85套主题 / AI内容增强 / 标点修复 / 外链转脚注 / CJK间距自动处理
