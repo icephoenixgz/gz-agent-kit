@@ -1,9 +1,9 @@
 <div align="center">
   <h1>🛸 GZ Agent Kit</h1>
-  <p><strong>你的 AI 工作台 · 57 个精选 Skill · 12 大板块</strong></p>
+  <p><strong>你的 AI 工作台 · 58 个精选 Skill · 12 大板块</strong></p>
   <p><em>小艺 Claw 养成配置 + 精选 Skill 库 — 一套陪你成长的 Agent 工作台</em></p>
   <p>
-    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-57-blue" alt="Skills"></a>
+    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-58-blue" alt="Skills"></a>
     <a href="#-板块"><img src="https://img.shields.io/badge/Categories-12-brightgreen" alt="Categories"></a>
     <a href="https://github.com/icephoenixgz/gz-agent-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-ff69b4" alt="Maintained"></a>
@@ -72,7 +72,7 @@ gz-agent-kit/
 │   ├── mind/          ← 🧠 心灵陪伴（1 个）
 │   ├── research/      ← 🧪 科研学术（7 个）
 │   ├── health-supplement/ ← 📊 健康分析补充（5 个）
-│   ├── content/       ← 📝 内容创作 + PPT + 标题策略 + 选题发现（7 个）
+│   ├── content/       ← 📝 内容创作 + PPT + 标题策略 + 选题发现 + 排版（8 个）
 │   ├── oracles/       ← 🧠 人物视角（2 个）
 │   ├── video/         ← 🎬 视频创作（6 个）
 │   ├── operations/    ← 🏢 商业运营（1 个）
@@ -146,6 +146,7 @@ gz-agent-kit/
 | **content-research-writer-cn** ✨增强 | 写作搭档（调研/大纲/反馈）+ 🔍跨平台爆款选题发现 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) 吸收 viral-topic |
 | **dashi-ppt** 🆕 | 大示AI PPT — 12套主题/1020版式/7图表/5分析模型/自带编辑器/导出PPTX | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) |
 | **gzh-title-strategist** 🆕 | 公众号标题策略师 — 5种动机15个候选/评分排序/硬性规则防虚构 | [liucongg/liucong-skills](https://github.com/liucongg/liucong-skills) |
+| **wechat-format** 🆕 ✨自制 | 公众号一键排版 — Markdown→微信HTML/85套主题/AI内容增强/标点修复 | [xiaohuailabs/xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) 吸收自制 |
 
 ### 🧠 人物视角（Oracles）
 
@@ -240,9 +241,31 @@ gz-agent-kit/
 ### v1.8.1 — 🧑‍🏫 
 
 
-### v1.8.3 — 📊 大示AI PPT安装 + 仓库57个Skill
+### v1.8.3 — 📊 大示AI PPT安装 + 仓库55个Skill
 - 🎨 **dashi-ppt** 🆕 — 大示AI PPT Skill（12套主题/1020版式/7图表/5分析模型/自带编辑控制台/导出PPTX/HTML/PDF）
 - 📈 仓库收录：53 → **55个Skill**
+
+### v1.8.4 — 📝 公众号标题策略师安装 + 仓库56个Skill
+- **gzh-title-strategist** 🆕 — 公众号标题策略师（5种动机15个候选/评分排序/硬性规则防虚构/4个references）
+- 📈 仓库收录：55 → **56个Skill**
+
+### v1.8.5 — 🧠 内容蒸馏理念吸收 + learning-system v1.3.0
+- **learning-system** v1.3.0 — 吸收 Cangjie Skill 的 RIA-TV++ 内容蒸馏方法论（7步流水线：整体理解→并行提取→三重验证→结构化→互联→压力测试→交付）
+- 新增「内容蒸馏」section：把书/视频/播客/论文蒸馏成 Agent 可调用的 Skill 包
+
+### v1.8.6 — 🎬 video-downloader 多平台视频下载 + 仓库57个Skill
+- **video-downloader** 🆕 — 多平台视频下载+文案提取+ASR转写（抖音/B站/YouTube/小红书），自带6个provider脚本
+- 📈 仓库收录：55 → **57个Skill**
+
+### v1.8.7 — 🔍 viral-topic 跨平台选题发现吸收 + content-research-writer 增强
+- **content-research-writer-cn** ✨增强 — 新增「跨平台爆款选题发现」section（公众号/B站/YouTube/X四平台判断标准 + 5步工作流 + 硬性规则）
+- 🎯 写作全链路：选题→大纲→调研→写作→标题
+
+### v1.8.8 — 📱 wechat-format 公众号一键排版 + 仓库58个Skill
+- **wechat-format** 🆕 ✨自制 — 公众号一键排版：Markdown→微信兼容HTML / 85套主题 / AI内容增强 / 标点修复 / 外链转脚注 / CJK间距自动处理
+- 吸收 xiaohuailabs/xiaohu-wechat-format 核心引擎（format.py + 85个主题JSON + 标点修复脚本）
+- 🎯 写作全链路闭环：选题→大纲→调研→写作→标题→**排版**
+- 📈 仓库收录：57 → **58个Skill**
 
 ### v1.8.2 — 🎯 AI 学习闭环 + 7步法增强\n- 🧠 **learning-system** ✨增强 — 新增 AI 学习闭环（目标→材料→讲解→输出→反馈→复习→项目）\n- 吸收 byoungd/up「人生进阶指南」AI学习回路，丰富 SCI 英语写作训练路径苏格拉底追问 + 学习引擎增强\n- 🧠 **learning-system** ✨增强 — 新增苏格拉底追问理念（5种追问场景 + 3种不适情况 + 追问节奏控制）\n- 吸收 DeepTutor 引导式教学思路，与现有 Teach 框架互补/
 - 🧠 **naiyue-thinking** 🆕 ✨自制 — 12条思考纪律，让AI做判断题不做论述题
