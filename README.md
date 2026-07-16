@@ -72,7 +72,7 @@ gz-agent-kit/
 │   ├── mind/          ← 🧠 心灵陪伴（1 个）
 │   ├── research/      ← 🧪 科研学术（7 个）
 │   ├── health-supplement/ ← 📊 健康分析补充（5 个）
-│   ├── content/       ← 📝 内容创作 + PPT + 标题策略（6 个）
+│   ├── content/       ← 📝 内容创作 + PPT + 标题策略 + 选题发现（7 个）
 │   ├── oracles/       ← 🧠 人物视角（2 个）
 │   ├── video/         ← 🎬 视频创作（6 个）
 │   ├── operations/    ← 🏢 商业运营（1 个）
@@ -143,6 +143,7 @@ gz-agent-kit/
 | **ian-xiaohei-illustrations** | 小黑手绘风正文配图 🏆7.5k⭐ | [helloianneo](https://github.com/helloianneo/ian-xiaohei-illustrations) |
 | **humanizer-zh** | 去 AI 机味（16种AI模式识别） | [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh) |
 | **remove-ai-flavor-skill** | 模板句改造 + 措辞自然化 | [B1lli/remove-ai-flavor-skill](https://github.com/B1lli/remove-ai-flavor-skill) |
+| **content-research-writer-cn** ✨增强 | 写作搭档（调研/大纲/反馈）+ 🔍跨平台爆款选题发现 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) 吸收 viral-topic |
 | **dashi-ppt** 🆕 | 大示AI PPT — 12套主题/1020版式/7图表/5分析模型/自带编辑器/导出PPTX | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) |
 | **gzh-title-strategist** 🆕 | 公众号标题策略师 — 5种动机15个候选/评分排序/硬性规则防虚构 | [liucongg/liucong-skills](https://github.com/liucongg/liucong-skills) |
 
