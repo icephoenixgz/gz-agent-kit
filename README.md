@@ -1,10 +1,10 @@
 <div align="center">
   <h1>🛸 GZ Agent Kit</h1>
-  <p><strong>你的 AI 工作台 · 58 个精选 Skill · 12 大板块</strong></p>
+  <p><strong>你的 AI 工作台 · 63 个精选 Skill · 11 大板块</strong></p>
   <p><em>小艺 Claw 养成配置 + 精选 Skill 库 — 一套陪你成长的 Agent 工作台</em></p>
   <p>
-    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-58-blue" alt="Skills"></a>
-    <a href="#-板块"><img src="https://img.shields.io/badge/Categories-12-brightgreen" alt="Categories"></a>
+    <a href="#-skill-清单"><img src="https://img.shields.io/badge/Skills-63-blue" alt="Skills"></a>
+    <a href="#-板块"><img src="https://img.shields.io/badge/Categories-11-brightgreen" alt="Categories"></a>
     <a href="https://github.com/icephoenixgz/gz-agent-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
     <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-ff69b4" alt="Maintained"></a>
   </p>
@@ -42,16 +42,16 @@ python3 -m supervisor.supervisorctl restart openclaw-gateway
 
 ---
 
-## 📐 十二大板块
+## 📐 十一大板块
 
 ```
 🏥 临床     🥗 营养     🌿 养生     🧠 心灵
 🧪 科研     📊 健康     📝 内容     🧠 人物视角
-🎬 视频     🏢 运营     🔮 玄学     🛠️ 工具
-🎓 学习                              📋 参考项目
+🎬 视频     🏢 运营     🛠️ 工具     🎓 学习
+📋 参考项目
 ```
 
-从临床到玄学，从学习到运营——**围绕你（ICU医生·专利撰写者·终身学习者）的真实需求精筛**，不堆数量。
+从临床到学习，从内容到运营——**围绕你（ICU医生·专利撰写者·终身学习者）的真实需求精筛**，不堆数量。
 
 ---
 
@@ -77,7 +77,7 @@ gz-agent-kit/
 │   ├── video/         ← 🎬 视频创作（6 个）
 │   ├── operations/    ← 🏢 商业运营（1 个）
 │   ├── learning-system/ ← 🎓 学习引擎
-│   ├── metaphysics/   ← 🔮 玄学命理
+
 │   ├── tools/         ← 🛠️ 通用工具（13 个）
 │   └── crawl4ai-skill/← 🕷️ 爬取
 │
